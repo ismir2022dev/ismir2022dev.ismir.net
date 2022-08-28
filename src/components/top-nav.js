@@ -106,7 +106,7 @@ const TopNav = () => {
                     </li>
                     <li>
                       <Link
-                        to="/program/paperslist"
+                        to="/program/papers"
                         className="active:bg-[#d83616] text-xl"
                       >
                         Accepted Papers
@@ -114,7 +114,7 @@ const TopNav = () => {
                     </li>
                     <li>
                       <Link
-                        to="/program/musiclist"
+                        to="/program/music"
                         className="active:bg-[#d83616] text-xl"
                       >
                         Accepted Music Submissions
@@ -344,7 +344,7 @@ const TopNav = () => {
                 </li>
                 <li>
                   <Link
-                    to="/program/paperslist"
+                    to="/program/papers"
                     className="active:bg-[#d83616] text-xl"
                   >
                     Accepted Papers
@@ -352,7 +352,7 @@ const TopNav = () => {
                 </li>
                 <li>
                   <Link
-                    to="/program/musiclist"
+                    to="/program/music"
                     className="active:bg-[#d83616] text-xl"
                   >
                     Accepted Music Submissions
