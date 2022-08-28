@@ -10,7 +10,10 @@ const Schedule = () => {
         </h1>
       </div>
       <div className="space-y-3">
-      <p>December 2022</p>
+      <div className="flex justify-center md:col-start-1 md:col-end-2 md:place-self-center ">
+        <p>December 2022</p>
+        </div></div>
+    <div className="space-y-3">
       <div className="flex justify-center md:col-start-1 md:col-end-2 md:place-self-center ">
           <StaticImage
             src="../images/schedule.png"
