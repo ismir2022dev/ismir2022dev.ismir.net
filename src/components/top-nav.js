@@ -296,7 +296,15 @@ const TopNav = () => {
               <ul class="p-2 bg-white text-[#ff7a7a] shadow-lg z-10">
                 <li>
                   <Link
-                    to="/programs/keynotes"
+                    to="/program/schedule"
+                    className="active:bg-[#d83616] text-xl"
+                  >
+                    Schedule
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/program/keynotes"
                     className="active:bg-[#d83616] text-xl"
                   >
                     Keynote Speakers
@@ -304,7 +312,7 @@ const TopNav = () => {
                 </li>
                 <li>
                   <Link
-                    to="/programs/tutorials"
+                    to="/program/tutorials"
                     className="active:bg-[#d83616] text-xl"
                   >
                     Tutorials
@@ -312,7 +320,7 @@ const TopNav = () => {
                 </li>
                 <li>
                   <Link
-                    to="/programs/satellites"
+                    to="/program/satellites"
                     className="active:bg-[#d83616] text-xl"
                   >
                     Satellite Events
