@@ -72,6 +72,14 @@ const TopNav = () => {
                 <div class="collapse-title text-xl font-medium">Program</div>
                 <div className="collapse-content">
                   <ul class="bg-white text-[#ff7a7a]">
+                  <li>
+                      <Link
+                        to="/programs/schedule"
+                        className="active:bg-none text-xl"
+                      >
+                        Schedule
+                      </Link>
+                    </li>
                     <li>
                       <Link
                         to="/programs/keynotes"
