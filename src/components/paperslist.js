@@ -24,8 +24,9 @@ const PapersList = () => {
     <dt><strong>Performance MIDI-to-score conversion by neural beat tracking</strong></dt>
     <dd>Lele Liu, Qiuqiang Kong, Veronica Morfi, Emmanouil Benetos</dd>
     </div>
+    
     </dl>
-    </div>
+    
     </div>
   );
 };
