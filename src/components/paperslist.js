@@ -10,19 +10,14 @@ const PapersList = () => {
       </div>
     <dl>
     
-    <div style="padding-bottom:10px">
+    <div style={{paddingBottom:"10px"}}>
     <dt><strong>Pop Music Generation with Controllable Phrase Lengths</strong></dt>
     <dd>Daiki Naruse, Tomoyuki Takahata, Yusuke Mukuta, Tatsuya Harada</dd>
     </div>
     
-    <div style="padding-bottom:10px">
+    <div style={{paddingBottom:"10px"}}>
     <dt><strong>In Search Of Sañcāras: Tradition-Informed Repeated Melodic Pattern Recognition In Carnatic Music</strong></dt>
     <dd>Thomas Nuttall, Genís Plaja-Roglans, Lara Pearson, Xavier Serra</dd>
-    </div>
-    
-    <div style="padding-bottom:10px">
-    <dt><strong>Performance MIDI-to-score conversion by neural beat tracking</strong></dt>
-    <dd>Lele Liu, Qiuqiang Kong, Veronica Morfi, Emmanouil Benetos</dd>
     </div>
     
     </dl>
