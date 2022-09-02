@@ -8,7 +8,14 @@ const PapersList = () => {
           Accepted Papers
         </h1>
       </div>
-      <p>Coming Soon!</p>
+    <dl>
+    <dt>Pop Music Generation with Controllable Phrase Lengths</dt>
+    <dd>Daiki Naruse, Tomoyuki Takahata, Yusuke Mukuta, Tatsuya Harada</dd>
+    <dt>In Search Of Sañcāras: Tradition-Informed Repeated Melodic Pattern Recognition In Carnatic Music</dt>
+    <dd>Thomas Nuttall, Genís Plaja-Roglans, Lara Pearson, Xavier Serra</dd>
+    <dt>Performance MIDI-to-score conversion by neural beat tracking</dt>
+    <dd>Lele Liu, Qiuqiang Kong, Veronica Morfi, Emmanouil Benetos</dd>
+    </dl>
     </div>
   );
 };
