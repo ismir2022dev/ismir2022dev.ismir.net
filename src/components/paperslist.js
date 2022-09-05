@@ -156,7 +156,7 @@ const PapersList = () => {
     </div>
 
     <div style={{paddingBottom:"10px"}}>
-    <dt><strong>Teach Yourself Georgian Dataset: A Corpus Of Traditional {\em A Cappella} Vocal Polyphony</strong></dt>
+    <dt><strong>Teach Yourself Georgian Dataset: A Corpus Of Traditional <em>A Cappella</em> Vocal Polyphony</strong></dt>
     <dd>David Gillman, Atalay Kutlay, Uday Goyat</dd>
     </div>
 
