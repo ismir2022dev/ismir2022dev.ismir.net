@@ -11,11 +11,6 @@ const PapersList = () => {
     
     <dl>
     <div style={{paddingBottom:"10px"}}>
-    <dt><strong>Paper Title</strong></dt>
-    <dd>Author Names</dd>
-    </div>
-
-    <div style={{paddingBottom:"10px"}}>
     <dt><strong>End-to-End Lyrics Transcription Informed by Pitch and Onset Estimation</strong></dt>
     <dd>Tengyu Deng, Eita Nakamura, Kazuyoshi Yoshii</dd>
     </div>
