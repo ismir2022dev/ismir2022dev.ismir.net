@@ -465,8 +465,8 @@ const Team = () => {
         <div>
           <h1 className="text-2xl font-bold">Volunteers</h1>
           <div className="flex flex-col flex-wrap px-20 py-10 gap-y-15">
-            <div className="flex flex-row gap-x-20 items-center justify-between">
-              <div className="flex-col flex items-left space-y-3">
+            <div className="flex flex-row gap-x-30 items-center justify-between">
+              <div className="flex-col flex items-left space-y-30">
                 <div class="avatar">
                   <div class="w-25 rounded-full">
                     <StaticImage
@@ -541,6 +541,27 @@ const Team = () => {
                   have been playing the guitar since 2010. I am very passionate
                   about everything related to music and technology, so being a
                   part of this project is truly an honour.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row md:gap-x-20 gap-x-20 items-center gap-y-5">
+              <div className="flex-col flex items-left space-y-3">
+                <div class="avatar">
+                  <div class="md:w-[90px] rounded-full">
+                    <StaticImage
+                      src="../images/volunteers/venkatakrishnan-vk.jpeg"
+                      objectFit="contain"
+                      placeholder="blurred"
+                      height={120}
+                      width={120}
+                    />
+                  </div>
+                </div>
+                <p className="text-md font-medium text-center">Venkatakrishnan V K</p>
+              </div>
+              <div>
+                <p className="text-md break-word">
+                I am a final year Aerospace Engineering undergraduate student at IIT Bombay. My interests in technology is predominantly in ML and Deep Learning. To add to my tech interests, I am a pianist with skills in Music Production, Mixing, and have also been learning Hindustani and Carnatic vocals for the past couple of years. Good to connect with you all!
                 </p>
               </div>
             </div>
