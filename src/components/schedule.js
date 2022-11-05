@@ -1,5 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
+import pdf_schedule from '../images/schedule.pdf';
+
 
 const Schedule = () => {
   return (
@@ -15,7 +17,7 @@ const Schedule = () => {
         </div></div>
     <div className="space-y-3">
       <div className="flex justify-center md:col-start-1 md:col-end-2 md:place-self-center ">
-      <iframe src="../images/schedule.pdf" width="100%" height="500px">
+      <iframe src={pdf_schedule} width="100%" height="500px">
       </iframe>
         </div>
       </div>
