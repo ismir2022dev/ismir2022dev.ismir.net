@@ -464,9 +464,9 @@ const Team = () => {
         </div>
         <div>
           <h1 className="text-2xl font-bold">Volunteers</h1>
-          <div className="flex flex-col flex-wrap px-20 py-10 gap-y-15">
-            <div className="flex flex-row gap-x-30 items-center justify-between">
-              <div className="flex-col flex items-left space-y-30">
+          <div className="flex flex-col flex-wrap px-20 py-10 gap-y-5">
+            <div className="flex flex-row gap-x-20 items-center justify-between">
+              <div className="flex-col flex items-left space-y-1">
                 <div class="avatar">
                   <div class="w-25 rounded-full">
                     <StaticImage
